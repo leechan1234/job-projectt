@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --xlarge: 170px;
+  --large: 28px;
+  --medium: 18px;
+  --small: 16px;
+  --xsmall: 12px;
+}
+
+.member_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 67vh;
+}
+
+.member_wrapper {
+  width: 448px;
+  height: 100%;
+  background-color: white;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.explanation {
+  width: 100%;
+  height: 114px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: var(--medium);
+}
+
+.login-bar {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 12px;
+  margin: 8px 0px;
+}
+
+.login-bar::before {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  line-height: 0px;
+  margin-right: 10px;
+}
+
+.login-bar::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  line-height: 0px;
+  margin-left: 10px;
+}
+
+.form-Wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.Id {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--xsmall);
+  /* border:  1px solid; */
+}
+
+.Id button {
+  width: 30%;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 144, 249);
+  color: white;
+  border: none;
+  font-size: var(--xsmall);
+  cursor: pointer;
+}
+
+.Id button:hover {
+  background-color: rgba(0, 44, 200);
+}
+
+.Id input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.Id input:focus {
+  border: 1px solid black;
+}
+
+.passWord {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 25px; */
+  font-size: var(--xsmall);
+}
+
+.passWord input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.passWord input:focus {
+  border: 1px solid black;
+}
+
+.name {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  font-size: var(--xsmall);
+  /* border:  1px solid; */
+}
+
+.name input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.name button {
+  width: 30%;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 144, 249);
+  color: white;
+  border: none;
+  font-size: var(--xsmall);
+  cursor: pointer;
+}
+
+.name button:hover {
+  background-color: rgba(0, 44, 200);
+}
+
+.name input:focus {
+  border: 1px solid black;
+}
+
+.email {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 30px; */
+  font-size: var(--xsmall);
+}
+
+.email input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.email input:focus {
+  border: 1px solid black;
+}
+
+.p-number {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 30px; */
+  font-size: var(--xsmall);
+}
+
+.p-number input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.p-number input:focus {
+  border: 1px solid black;
+}
+
+.LoginButton {
+  width: 100%;
+  height: 37px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.LoginButton button {
+  width: 100%;
+  height: 37px;
+  border-radius: 5px;
+  background-color: rgba(0, 144, 249);
+  color: white;
+  border: none;
+  font-size: var(--xsmall);
+  cursor: pointer;
+}
+
+.LoginButton button:hover {
+  background-color: rgba(0, 44, 200);
+}
+
+.joinMember {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin-top: 25px;
+  font-size: var(--xsmall);
+}
+
+.joinMember a:hover {
+  color: rgba(100, 44, 200);
+}

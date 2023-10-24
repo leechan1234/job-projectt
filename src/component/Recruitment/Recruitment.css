@@ -1,0 +1,37 @@
+.re_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.re_wrapper {
+  width: 80%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgba(0, 144, 249);
+  overflow-y: scroll;
+}
+
+.re_wrapper h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.box_Item {
+  display: flex;
+  justify-content: space-evenly;
+  height: 150px;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.35);
+  scroll-behavior: auto;
+}
+
+.box_Item div p:nth-of-type(1) {
+  font-size: 20px;
+  font-weight: bold;
+}

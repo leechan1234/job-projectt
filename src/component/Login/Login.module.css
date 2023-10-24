@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html,
+h1,
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+:root {
+  --xlarge: 170px;
+  --large: 28px;
+  --medium: 18px;
+  --small: 16px;
+  --xsmall: 12px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.wrapper {
+  width: 448px;
+
+}
+
+.logo {
+  width: 100%;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explanation {
+  width: 100%;
+  height: 114px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: var(--medium);
+}
+
+.login-bar {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 12px;
+  margin: 8px 0px;
+}
+
+.login-bar::before {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  line-height: 0px;
+  margin-right: 10px;
+}
+
+.login-bar::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  line-height: 0px;
+  margin-left: 10px;
+}
+
+.Id {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  font-size: var(--xsmall);
+}
+
+.Id input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.Id input:focus {
+  border: 1px solid black;
+}
+
+.passWord {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  font-size: var(--xsmall);
+}
+
+.passWord input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.passWord input:focus {
+  border: 1px solid black;
+}
+
+.find {
+  width: 100%;
+  height: 20px;
+  text-align: end;
+  margin-top: 25px;
+  font-size: var(--xsmall);
+}
+
+.find a {
+  text-decoration: none;
+}
+
+.find a:hover {
+  color: rgba(100, 44, 200);
+}
+
+.LoginButton {
+  width: 100%;
+  height: 37px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.LoginButton button {
+  width: 100%;
+  height: 37px;
+  border-radius: 5px;
+  background-color: rgba(0, 144, 249);
+  color: white;
+  border: none;
+  font-size: var(--xsmall);
+  cursor: pointer;
+}
+
+.LoginButton button:hover {
+  background-color: rgba(0, 44, 200);
+}
+
+.joinMember {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin-top: 25px;
+  font-size: var(--xsmall);
+}
+
+.joinMember a:hover {
+  color: rgba(100, 44, 200);
+}

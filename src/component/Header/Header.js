@@ -63,7 +63,9 @@ const Header = () => {
             </a>
             <ul class="subMenu">
               <li>
-                <a href="">자유게시판</a>
+                <Link to="/community" href="">
+                  자유게시판
+                </Link>
               </li>
               <li>
                 <a href="">피드백</a>

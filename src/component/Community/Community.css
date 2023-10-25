@@ -11,96 +11,7 @@ a{
     text-decoration: none;
 }
 
-/* bar 부분 */
- header {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 100px;
-    background-color: aliceblue;
-    padding-top: 20px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #topMenu {
-    position: relative;
-  }
-  
-  #topMenu li {
-    padding: 0 30px;
-    font-weight: 700;
-  }
-  
-  .header-logo {
-    display: flex;
-    padding-top: 20px;
-  }
-  
-  #topMenu li ul {
-    padding-right: 20px;
-  }
-  
-  #topMenu > li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  #topMenu > li:hover > a {
-    color: rgba(0, 144, 249);
-  }
-  
-  #topMenu > li > a {
-    color: black;
-    display: flex;
-    justify-content: center;
-  }
-  
-  #topMenu .subMenu li {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    margin: 2px;
-  }
-  
-  .subMenu {
-    width: 23%;
-    margin: 0 -5px;
-    display: flex;
-    flex-direction: column;
-    background-color:rgba(300, 355, 255, 0.6);
-    position: absolute;
-    padding: 0px;
-    font-size: var(--xsmall);
-    display: none;
-  }
-  
-  #topMenu > li > .subMenu > li{
-    width: 100%;
-  }
-  
-  
-  
-  #topMenu > li:hover .subMenu {
-    display: block;
-  }
-  
-  #topMenu > li > .subMenu > li:hover{
-    background-color: antiquewhite;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  
-  #topMenu li ul li {
-    padding: 10px 0;
-  }
-  
-  .subMenu li a {
-    color: black;
-  }
+
 .Community__Container{
     display: flex;
     justify-content: center;
@@ -150,22 +61,26 @@ a{
 
 .leftBox{
 padding: 10px;
+
 }
 
 .leftBox .name{
     font-weight: 900;
 }
+.name{
+  height: 25px;
+}
 
-.leftBox .title{
+.leftBox .com_title{
     font-size: 20px;
      font-weight: 900;
 }
 
-.leftBox .title:hover{
+.leftBox .com_title:hover{
     color: #0090f9;
 }
 
-.righBox{
+.rightBox{
     display: flex;
     align-items: end;
     padding-right: 20px;

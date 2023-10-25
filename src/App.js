@@ -4,6 +4,7 @@ import Header from "./component/Header/Header";
 import Main from "./component/Main/Main";
 import Member from "./component/Member/Member";
 import Recruitment from "./component/Recruitment/Recruitment";
+import Community from "./component/Community/Community";
 
 function App() {
   return (

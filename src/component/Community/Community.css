@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* bar 부분 */
+ header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    padding-top: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #topMenu {
+    position: relative;
+  }
+  
+  #topMenu li {
+    padding: 0 30px;
+    font-weight: 700;
+  }
+  
+  .header-logo {
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  #topMenu li ul {
+    padding-right: 20px;
+  }
+  
+  #topMenu > li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #topMenu > li:hover > a {
+    color: rgba(0, 144, 249);
+  }
+  
+  #topMenu > li > a {
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #topMenu .subMenu li {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 2px;
+  }
+  
+  .subMenu {
+    width: 23%;
+    margin: 0 -5px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(300, 355, 255, 0.6);
+    position: absolute;
+    padding: 0px;
+    font-size: var(--xsmall);
+    display: none;
+  }
+  
+  #topMenu > li > .subMenu > li{
+    width: 100%;
+  }
+  
+  
+  
+  #topMenu > li:hover .subMenu {
+    display: block;
+  }
+  
+  #topMenu > li > .subMenu > li:hover{
+    background-color: antiquewhite;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+  #topMenu li ul li {
+    padding: 10px 0;
+  }
+  
+  .subMenu li a {
+    color: black;
+  }
+.Community__Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.Community__Wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    width:700px;
+    height: 100%;
+    gap: 15px;
+}
+
+.Button__bar{
+    width: 100%;
+    padding: 13px 0;
+}
+
+.Button__bar button{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color:#0090f9 ;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.Button__bar button:hover{
+    background-color :  #0b7fd3 ;
+}
+ 
+/* #0b7fd3 */
+
+.item__Box{
+    border-top: 1px solid gray;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.leftBox{
+padding: 10px;
+}
+
+.leftBox .name{
+    font-weight: 900;
+}
+
+.leftBox .title{
+    font-size: 20px;
+     font-weight: 900;
+}
+
+.leftBox .title:hover{
+    color: #0090f9;
+}
+
+.righBox{
+    display: flex;
+    align-items: end;
+    padding-right: 20px;
+}
+
+.item__Box .content{
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header__Box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color:#e5ebee;
+}
+
+.header__Box :nth-child(1){
+    font-weight: 800;
+    font-size: 20px;
+}
